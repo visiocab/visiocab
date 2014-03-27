@@ -20,9 +20,9 @@ Visiocab requires [Apache](http://httpd.apache.org/), [PHP5](http://www.php.net/
 2. Upload the code to a public web directory.
 3. Create the starter database with the starter_data.sql provided in the root folder.
 4. Configure DB connection details in /application/config/database.php
-5. Visit the installation page at http://your_server_name/install.php
+5. Visit the installation page at http://your_server_name/install
 6. Enter your custom account details.
-7. Delete /install.php and /starter_data.sql from your server.
+7. Delete starter_data.sql from your server.
 
 ***
 
