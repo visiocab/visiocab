@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/Default for Electrical Measurement Safety Quiz</text>
+    </category>
+  </question>
+  <!-- question: 204  -->
+  <question type="matching">
+    <name>
+      <text>Please list the IEC 61010 category rating for each of the following.</text>
+    </name>
+    <questiontext format="html">
+      <text>Please list the IEC 61010 category rating for each of the following.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <subquestion>
+      <text>Distribution wiring including mains</text>
+      <answer>
+        <text>CAT lll</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Origin of installation at the Utility level</text>
+      <answer>
+        <text>CAT lV</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Protected electronic circuits</text>
+      <answer>
+        <text>CAT l</text>
+      </answer>
+    </subquestion>
+    <subquestion>
+      <text>Receptacle outlet circuit; plug-in loads</text>
+      <answer>
+        <text>CAT ll</text>
+      </answer>
+    </subquestion>
+  </question>
+  <!-- question: 211  -->
+  <question type="multichoice">
+    <name>
+      <text>Industry estimates show that _______ arc flash incidents occur every day in the US.</text>
+    </name>
+    <questiontext format="html">
+      <text>Industry estimates show that _______ arc flash incidents occur every day in the US.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>5 to 10</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1 to 5</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>10 to 20</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>20 to 50</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 205  -->
+  <question type="multichoice">
+    <name>
+      <text>When replacing a fuse in any electrical measurement meter, it is critical to use only the manufacturer’s ____________________________________________.</text>
+    </name>
+    <questiontext format="html">
+      <text>When replacing a fuse in any electrical measurement meter, it is critical to use only the manufacturer’s ___________________________________________.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Brand</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Category</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Specified Replacement fuse</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Plug in</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 210  -->
+  <question type="multichoice">
+    <name>
+      <text>When should electrical test equipment be inspected?</text>
+    </name>
+    <questiontext format="html">
+      <text>When should electrical test equipment be inspected?</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Before every use</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>After every use</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Only once a month</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Twice every year</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 206  -->
+  <question type="multichoice">
+    <name>
+      <text>Whenever possible, you should work on _______________________ circuits.</text>
+    </name>
+    <questiontext format="html">
+      <text>Whenever possible, you should work on ______________________ circuits.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>De-energized</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Energized</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Grounded</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>None of the above</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 203  -->
+  <question type="truefalse">
+    <name>
+      <text>Ensure the meter being used is rated for the current, voltage and transient levels of the circuit being measured.</text>
+    </name>
+    <questiontext format="html">
+      <text>Ensure the meter being used is rated for the current, voltage and transient levels of the circuit being measured.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 202  -->
+  <question type="truefalse">
+    <name>
+      <text>Personnel must be trained and certified prior to using metering equipment.</text>
+    </name>
+    <questiontext format="html">
+      <text>Personnel must be trained and certified prior to using metering equipment.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 209  -->
+  <question type="truefalse">
+    <name>
+      <text>Practice safe measurement techniques by always connecting the grounded lead first, hot second.</text>
+    </name>
+    <questiontext format="html">
+      <text>Practice safe measurement techniques by always connecting the grounded lead first, hot second.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 207  -->
+  <question type="truefalse">
+    <name>
+      <text>The higher the short circuit fault current available the lower the IEC category rating</text>
+    </name>
+    <questiontext format="html">
+      <text>The higher the short circuit fault current available the lower the IEC category rating</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 208  -->
+  <question type="truefalse">
+    <name>
+      <text>Transient voltage is a slowly building pulse of current or voltage in an electrical circuit.</text>
+    </name>
+    <questiontext format="html">
+      <text>Transient voltage is a slowly building pulse of current or voltage in an electrical circuit.</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Sudden pulse.</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

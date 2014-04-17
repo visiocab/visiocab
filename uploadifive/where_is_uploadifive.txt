@@ -1,0 +1,3 @@
+Where is uploadifive?
+
+The license does allow for use in a non-commercial application.  However, we erred on the side of caution here and did not include the actual code. You can roll your own upload tool, or visit http://www.uploadify.com to get the code we used.

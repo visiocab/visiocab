@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>D:/Pano2VR/lati-parking-ramp/pano.jpg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>178</start>
+        <min>-180</min>
+        <max>180</max>
+      </pan>
+      <tilt>
+        <start>0.7</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>40</start>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <datetime>2013:04:01 11:08:21</datetime>
+    </userdata>
+    <hotspots>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">false</value>
+            <value id="jsxml">true</value>
+            <value id="manifest">true</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+          <nodedelay>0</nodedelay>
+        </autorotate>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <filename>output/project_out.xml</filename>
+        <tilesize>2500</tilesize>
+        <quality>90</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>640</windowwidth>
+        <windowheight>480</windowheight>
+        <fovmode>vertical</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>1</dblclickfullscreen>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <hideaboutbox>1</hideaboutbox>
+        <skinfile>AASFv1-otherscenes.ggsk</skinfile>
+        <skinSvgToPng>0</skinSvgToPng>
+        <skinimagepath>images</skinimagepath>
+        <preview>grayscale</preview>
+        <previewcolor>#808080</previewcolor>
+        <previewresolution>4</previewresolution>
+        <previewquality>25</previewquality>
+        <resize>
+          <screensize>1150</screensize>
+          <tilesize>1200</tilesize>
+          <quality>90</quality>
+          <cubefilename>images/$n_o_$x.jpg</cubefilename>
+        </resize>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>

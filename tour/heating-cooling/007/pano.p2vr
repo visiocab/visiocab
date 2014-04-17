@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>pano.jpg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>307.5</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>-7.5</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>50.44</start>
+        <min>30</min>
+        <max>100</max>
+        <minunit>degrees</minunit>
+      </fov>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata/>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>index.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">true</value>
+            <value id="jsxml">false</value>
+            <value id="manifest">false</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">true</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>1</enabled>
+          <speed>0.09</speed>
+          <delay>3</delay>
+          <returntohorizon>0.9</returntohorizon>
+          <afterloaded>1</afterloaded>
+          <nodedelay>0</nodedelay>
+          <noderandom>1</noderandom>
+        </autorotate>
+        <hotspottext>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textwrap>1</textwrap>
+          <enabled>1</enabled>
+          <textcolor>#000000</textcolor>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <filename>pano_out.xml</filename>
+        <tilesize>1500</tilesize>
+        <quality>90</quality>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>640</windowwidth>
+        <windowheight>480</windowheight>
+        <fovmode>vertical</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>1</dblclickfullscreen>
+        <lockedwheel>1</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <hideaboutbox>1</hideaboutbox>
+        <skinimagepath>images</skinimagepath>
+        <previewquality>25</previewquality>
+        <resize>
+          <screensize>1024</screensize>
+          <tilesize>960</tilesize>
+          <quality>90</quality>
+          <cubefilename>images/$n_o_$x.jpg</cubefilename>
+        </resize>
+        <skinSvgToPng>0</skinSvgToPng>
+        <resize>
+          <screensize>960</screensize>
+          <tilesize>800</tilesize>
+          <quality>90</quality>
+          <cubefilename>images/$n_o_$x.jpg</cubefilename>
+        </resize>
+        <resize>
+          <screensize>480</screensize>
+          <tilesize>416</tilesize>
+          <quality>90</quality>
+          <cubefilename>images/$n_o_$x.jpg</cubefilename>
+        </resize>
+        <skinfile>AASFv1-otherscenes.ggsk</skinfile>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <progressivejpeg>0</progressivejpeg>
+        <preview>grayscale</preview>
+        <previewcolor>#808080</previewcolor>
+        <previewresolution>4</previewresolution>
+        <leveltileenabled>0</leveltileenabled>
+        <leveltilesize>512</leveltilesize>
+        <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
+        <leveltilegeneratefiles>1</leveltilegeneratefiles>
+        <leveltileoverlap>1</leveltileoverlap>
+      </htmlcss>
+    </output>
+    <sounds/>
+    <animation/>
+  </panorama>
+</pano2vrconfig>

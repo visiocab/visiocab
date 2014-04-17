@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="" hideabout="1">
+  <view fovmode="0" pannorth="0">
+    <start pan="296.5" fov="70.44" tilt="-0.5"/>
+    <min pan="0" fov="30" tilt="-90"/>
+    <max pan="360" fov="100" tilt="90"/>
+  </view>
+  <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+	<hotspot id="q1" skinid="q1" pan="0" tilt="0" title="" url="" target=""/>
+	<hotspot id="q2" skinid="q2" pan="0" tilt="-28" title="" url="" target=""/>
+	<hotspot id="q3" skinid="q3" pan="-74" tilt="-31" title="" url="" target=""/>
+	<hotspot id="q4" skinid="q4" pan="72" tilt="-27" title="" url="" target=""/></hotspots>
+  <media/>
+  <input tile0url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_0.jpg" tile5url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_5.jpg" tilesize="1500" tile4url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_4.jpg" tile3url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_3.jpg" tilescale="1.006666666666667" tile2url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_2.jpg" tile1url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_1.jpg"/>
+  <altinput tile0url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_0.jpg" screensize="1024" tile5url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_5.jpg" tilesize="960" tile4url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_4.jpg" tile3url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_3.jpg" tilescale="1.006666666666667" tile2url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_2.jpg" tile1url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_960_1.jpg"/>
+  <altinput tile0url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_0.jpg" screensize="960" tile5url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_5.jpg" tilesize="800" tile4url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_4.jpg" tile3url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_3.jpg" tilescale="1.006666666666667" tile2url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_2.jpg" tile1url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_800_1.jpg"/>
+  <altinput tile0url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_0.jpg" screensize="480" tile5url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_5.jpg" tilesize="416" tile4url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_4.jpg" tile3url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_3.jpg" tilescale="1.006666666666667" tile2url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_2.jpg" tile1url="/tour/wind-turbin/07 Yaw Deck/images/pano_o_416_1.jpg"/>
+  <autorotate speed="0.090" nodedelay="0.00" startloaded="1" returntohorizon="0.900" delay="3.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

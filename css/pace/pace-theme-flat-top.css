@@ -1,0 +1,31 @@
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+
+}
+
+.pace .pace-progress {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 63px;
+  left: 0;
+  height: 4px;
+  background: #e29b15;
+  -webkit-transition: -webkit-transform .3s, width 1s;
+  -moz-transition: width 1s;
+  -o-transform: width 1s;
+  transition: transform .3s, width 1s;
+  pointer-events: none;
+}
+
+.pace.pace-active .pace-progress {
+
+}

@@ -1,0 +1,13 @@
+RewriteEngine on
+
+#routes dynamic calls to index.php so CodeIgniter can process them, but leaves static content alone
+RewriteCond $1 !^(index\.php|inc|js|favicon\.ico|css|uploadifive|phpThumb|othermedia|angular|airstreams|tour|fancybox\-x\.png|inc|img|pdf|images|fonts|video|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+FileETag MTime Size
+<ifmodule mod_expires.c>
+  <filesmatch "\.(jpg|gif|png|css|js|ico)$">
+       ExpiresActive on
+       ExpiresDefault "access plus 1 year"
+   </filesmatch>
+</ifmodule>

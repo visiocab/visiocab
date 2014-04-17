@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html manifest="pano.manifest">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		
+		<script type="text/javascript">
+			// hide URL field on the iPhone/iPod touch
+			function hideUrlBar() {
+				if (((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)))) {
+					container = document.getElementById("container");
+					if (container) {
+						var cheight;
+					  	switch(window.innerHeight) {
+							case 208:cheight=268; break; // landscape
+						 	case 260:cheight=320; break; // landscape, fullscreen
+						 	case 336:cheight=396; break; // portrait, in call status bar
+							case 356:cheight=416; break; // portrait 
+							case 424:cheight=484; break; // portrait iPhone5, in call status bar
+							case 444:cheight=504; break; // portrait iPhone5 
+						 	default:
+								cheight=window.innerHeight;
+						}
+						if ((cheight) && ((container.offsetHeight!=cheight) || (window.innerHeight!=cheight))) {
+							container.style.height=cheight + "px";
+							setTimeout(function() { hideUrlBar(); }, 1000);
+						}
+					}
+				}
+				
+				document.getElementsByTagName("body")[0].style.marginTop="1px";
+				window.scrollTo(0, 1);
+			}
+			window.addEventListener("load", hideUrlBar);
+			window.addEventListener("resize", hideUrlBar);
+			window.addEventListener("orientationchange", hideUrlBar);
+		</script>
+		<style type="text/css" title="Default">
+			body, div, h1, h2, h3, span, p {
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+				color: #000000; 
+			}
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+			}
+			body {
+			  font-size: 10pt;
+			  background : #ffffff; 
+			}
+			table,tr,td {
+				font-size: 10pt;
+				border-color : #777777;
+				background : #dddddd; 
+				color: #000000; 
+				border-style : solid;
+				border-width : 2px;
+				padding: 5px;
+				border-collapse:collapse;
+			}
+			h1 {
+				font-size: 18pt;
+			}
+			h2 {
+				font-size: 14pt;
+			}
+			.warning { 
+				font-weight: bold;
+			} 
+			/* fix for scroll bars on webkit & Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<div id="container" style="width:100%;height:100%;">
+		This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+		</div>
+		<script type="text/javascript">
+	
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<panorama id="" hideabout="1">';
+			panorama+='  <view fovmode="0" pannorth="0">';
+			panorama+='    <start pan="178" fov="40" tilt="0.7"/>';
+			panorama+='    <min pan="-180" fov="5" tilt="-39.86580973373189"/>';
+			panorama+='    <max pan="180" fov="120" tilt="39.86580973373189"/>';
+			panorama+='  </view>';
+			panorama+='  <userdata title="" datetime="2013:04:01 11:08:21" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+			panorama+='  <hotspots width="180" height="20" wordwrap="1">';
+			panorama+='    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>';
+			panorama+='    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+			panorama+='    <hotspot title="VVICRew Website" target="_blank" pan="-90.9153" skinid="" url="http://vvicrew.com" id="Point01" tilt="-1.44019"/>';
+			panorama+='  </hotspots>';
+			panorama+='  <media/>';
+			panorama+='  <input tile0url="images/pano_o_0.jpg" prev5url="images/pano_o_preview_5.jpg" prev4url="images/pano_o_preview_4.jpg" prev3url="images/pano_o_preview_3.jpg" prev2url="images/pano_o_preview_2.jpg" prev1url="images/pano_o_preview_1.jpg" prev0url="images/pano_o_preview_0.jpg" tile5url="images/pano_o_5.jpg" tilesize="2500" tile4url="images/pano_o_4.jpg" tile3url="images/pano_o_3.jpg" tilescale="1.004" tile2url="images/pano_o_2.jpg" tile1url="images/pano_o_1.jpg"/>';
+			panorama+='  <altinput tile0url="images/pano_o_1200_0.jpg" screensize="1150" tile5url="images/pano_o_1200_5.jpg" tilesize="1200" tile4url="images/pano_o_1200_4.jpg" tile3url="images/pano_o_1200_3.jpg" tilescale="1.004" tile2url="images/pano_o_1200_2.jpg" tile1url="images/pano_o_1200_1.jpg"/>';
+			panorama+='  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>';
+			panorama+='</panorama>';
+			panorama+='';
+			pano.readConfigString(panorama);
+			// hide the URL bar on the iPhone
+			hideUrlBar();
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+	</body>
+</html>
