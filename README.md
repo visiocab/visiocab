@@ -8,7 +8,7 @@ While _Visiocab_ was created for education, it has potential to be used in other
 
 ## Installation
 ##### Download
-You can download any and all source code for the _Visiocab_ web application on [github.com](http://www.github.com).
+You can download any and all source code for the _Visiocab_ web application on [github.com](https://github.com/visiocab).
 
 ##### Database
 starter_data.sql file provided will setup the required database schema to run _Visiocab_.
@@ -18,8 +18,9 @@ Visiocab requires [Apache](http://httpd.apache.org/), [PHP5](http://www.php.net/
 
 1. Setup a LAMP or WAMP server.
 2. Upload the code to a public web directory.
+3. Rename htaccess_sample to .htaccess to allow routing through CodeIgniter. Adjust the settings in the .htaccess as necessary
 3. Create the starter database with the starter_data.sql provided in the root folder.
-4. Configure DB connection details in /application/config/database.php
+4. Configure DB connection details in application/config/database.php
 5. Visit the installation page at http://your_server_name/install
 6. Enter your custom account details.
 7. Delete starter_data.sql from your server.
