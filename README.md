@@ -29,6 +29,12 @@ Visiocab requires [Apache](http://httpd.apache.org/), [PHP5](http://www.php.net/
 ## Getting Started
 Once you complete the installation steps above. Visit [visiocab.com/go](http://www.visiocab.com/go) to watch tutorials on using the features of _Visiocab_.
 
+## PHP and Apache settings
+We have built this system on a fairly standard LAMP install. Things you should be aware of:
+- The GD library is required to use the phpThumb system we use to generate thumbnails.  You're welcome to use whatever thumbnail library you want, with whatever graphics libraries you want, but this is what comes standard in the repository.
+- The virtual tours we built the system for we built using the Pano2VR software from Garen Gnome Software. This is a commercial product, and only the generated output files are included here, for demonstration purposes.  You can purchase the software from http://ggnome.com/pano2vr  or you can create your own routine for your own virtual tours.
+- Without the virtual tours, you can still use flat media (high resolution photographs) to create Visiocabs. To facilitate this, we have left hooks on the main "build a visiocab" page for uploadifive, a commercial library that allows in-place file uploads.  Again, you're welcome to roll your own or purchase the uploadifive package from http://www.uploadify.com/download/download-uploadifive-standard/
+
 ***
 
 ## Device Integration
